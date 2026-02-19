@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T.A.T.A. | San Antonio Vacation Homes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">T.A.T.A.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to T.A.T.A.</h1>
+            <p>
+                Where comfort meets convenience in the heart of San Antonio, Texas.
+                Our charming vacation homes, apartments, and retreats are designed
+                to help you relax and explore.
+            </p>
+            <a href="#contact" class="btn">Book Your Stay</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>
+            Hello and welcome! My name is Tanya, and I’m excited to be your host
+            during your stay in San Antonio. As a passionate traveler, I understand
+            how important it is to feel at home wherever you are.
+        </p>
+        <p>
+            T.A.T.A. was created to be a cozy, welcoming space where guests can
+            relax and enjoy a seamless stay. I take pride in offering clean,
+            comfortable, and fully equipped accommodations to make your visit
+            memorable.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <label for="phone">Phone Number (Optional)</label>
+            <input type="tel" id="phone" placeholder="Your Phone Number">
+
+            <label for="message">How can we help you?</label>
+            <textarea id="message" rows="4" placeholder="Write your message here..."></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 T.A.T.A. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
